@@ -5,10 +5,20 @@
     android:layout_height="match_parent"
     tools:context=".LocationFragment">
 
-    <!-- TODO: Update blank fragment layout -->
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/title_location" />
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="top|center"
+        android:text="@string/title_location"
+        android:textAppearance="@style/Base.TextAppearance.MaterialComponents.Headline6" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="60dp"
+        android:text="@string/title_location_desc" />
 
 </FrameLayout>
