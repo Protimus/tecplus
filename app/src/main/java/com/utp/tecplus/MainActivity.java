@@ -1,38 +1,35 @@
 package com.utp.tecplus;
 
 import android.os.Bundle;
-import android.support.annotation.NonNull;
-import android.support.design.widget.BottomNavigationView;
-import android.support.v4.app.Fragment;
-import android.support.v7.app.AppCompatActivity;
+import com.google.android.material.bottomnavigation.BottomNavigationView;
 import android.view.MenuItem;
+
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.Fragment;
 
 public class MainActivity extends AppCompatActivity {
 
-    private BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationItemSelectedListener;
+    private BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationItemSelectedListener = new BottomNavigationView.OnNavigationItemSelectedListener() {
 
-    {
-        mOnNavigationItemSelectedListener = new BottomNavigationView.OnNavigationItemSelectedListener() {
+        @Override
+        public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+            Fragment fragment = null;
 
-            @Override
-            public boolean onNavigationItemSelected(@NonNull MenuItem item) {
-                Fragment fragment = null;
-
-                switch (item.getItemId()) {
-                    case R.id.navigation_information:
-                        fragment = new InformationFragment();
-                        break;
-                    case R.id.navigation_location:
-                        fragment = new LocationFragment();
-                        break;
-                    case R.id.navigation_contact:
-                        fragment = new ContactFragment();
-                        break;
-                }
-                return loadFragment(fragment);
+            switch (item.getItemId()) {
+                case R.id.navigation_information:
+                    fragment = new InformationFragment();
+                    break;
+                case R.id.navigation_location:
+                    fragment = new LocationFragment();
+                    break;
+                case R.id.navigation_contact:
+                    fragment = new ContactFragment();
+                    break;
             }
-        };
-    }
+            return loadFragment(fragment);
+        }
+    };
 
     protected boolean loadFragment(Fragment fragment) {
         //switching fragment
