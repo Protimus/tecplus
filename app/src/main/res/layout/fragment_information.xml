@@ -19,6 +19,15 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:layout_marginTop="60dp"
-        android:text="@string/title_information_desc" />
+        android:text="@string/title_information"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="120dp"
+        android:layout_marginStart="120dp"
+        android:text="@string/button_save" />
 
 </FrameLayout>

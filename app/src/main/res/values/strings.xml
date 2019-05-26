@@ -6,4 +6,5 @@
     <string name="title_location_desc">Informações de localização da instituição</string>
     <string name="title_contact_desc">Informações de contato da instituição</string>
     <string name="title_information_desc">Descrição de informações da instituição</string>
+    <string name="button_save">Salvar</string>
 </resources>
