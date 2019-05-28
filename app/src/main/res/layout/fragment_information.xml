@@ -9,6 +9,7 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
+        android:textSize = "30sp"
         android:gravity="top|center"
         android:text="@string/title_information"
         android:textAppearance="@style/Base.TextAppearance.MaterialComponents.Headline6" />
@@ -17,8 +18,9 @@
         android:id="@+id/textView"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:gravity="center"
         android:layout_marginTop="60dp"
+        android:textSize = "20sp"
+        android:gravity="center"
         android:text="@string/title_information_desc" />
 
 </FrameLayout>

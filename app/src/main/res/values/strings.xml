@@ -5,5 +5,8 @@
     <string name="title_contact">CONTATO</string>
     <string name="title_location_desc">Informações de localização da instituição</string>
     <string name="title_contact_desc">Informações de contato da instituição</string>
-    <string name="title_information_desc">Descrição de informações da instituição</string>
+    <string name="title_information_desc">Informações gerais da instituição</string>
+    <string name="email">Email</string>
+    <string name="telephone">Telefone</string>
+    <string name="button_label_enabled">GRAVAR</string>
 </resources>
