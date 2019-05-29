@@ -6,10 +6,15 @@
     <string name="title_location_desc">Informações de localização da instituição</string>
     <string name="title_contact_desc">Informações de contato da instituição</string>
     <string name="title_information_desc">Informações gerais da instituição</string>
-    <string name="email">EMAIL</string>
-    <string name="telephone">TELEFONE</string>
+    <string name="email">Por favor, informe um email</string>
+    <string name="telephone">Por favor, informe um telefone</string>
     <string name="button_label_enabled">GRAVAR</string>
-    <string name="cep">CEP</string>
-    <string name="number">NÚMERO</string>
-    <string name="complement">COMPLEMENTO</string>
+    <string name="cep">Por favor, informe o número do CEP</string>
+    <string name="number">Por favor, informe o número do local</string>
+    <string name="complement">Por favor, informe um complemento</string>
+    <string name="textCep">CEP</string>
+    <string name="textNumber">NÚMERO</string>
+    <string name="textComplement">COMPLEMENTO</string>
+    <string name="textPhone">TELEFONE</string>
+    <string name="textMail">EMAIL</string>
 </resources>
